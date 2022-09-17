@@ -1,18 +1,11 @@
 #include <stdio.h>
-
 /**
- * *main - Enrty point
- * *
- * *Return: Always 0
- **
- **/
-int main(void)
+ *  * main - Entry point
+ *   *   
+ *    *    * Return: always 0
+ *    */
+int main(vo
 {
-	printf(" Size of char: %zu byte(s)\n", sizeof(char));
-	printf(" Size of int: %zu byte(s)\n", sizeof(int));
-	printf(" Size of long int: %zu byte(s)\n", sizeof(long int));
-	printf(" Size of long long int: %zu byte(s)\n", sizeof(long long int));
-	printf(" Size of float: %zu byte(s)\n", sizeof(float));
-
-	return (0);
+			puts("\"Programming is like building a multilingual puzzle");
+						return (0);
 }
