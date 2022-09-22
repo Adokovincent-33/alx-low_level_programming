@@ -1,24 +1,23 @@
 #include "main.h"
-#include <string.h>
+
 /**
- * _strcat - this is a function strcat
- *  @dest : first param
- *  @src: second param
- *  Return: address of dest
+ * _strcat - appends src to the dest string
+ * @dest: string to append by src
+ * @src: string to append to dest
+ *
+ * Return: address of dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int len = 0;
-	char i;
+	int i, j;
 
-	while (dest[len])
-		len++;
-	
-	for (i = 0; src[i] != '0'; i++)
+	i = j = 0;
+	while (*(dest + i))
+		i++;
+	while ((*(dest + i) = *(src + j)))
 	{
-		dest[len] = src[i];
-		len +=1;
+		i++;
+		j++;
 	}
-	dest[len] = '\0';
 	return (dest);
 }
