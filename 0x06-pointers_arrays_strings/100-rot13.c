@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "main.c"
 /**
 * rot13 - encodes a string using rot13
 * @str: the string targeted
