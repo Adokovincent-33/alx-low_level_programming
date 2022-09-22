@@ -8,4 +8,5 @@
 int main(void)
 {
 	char *rot13(char *s);
+	return (0);
 }
